@@ -69,7 +69,7 @@ $ bf-jit --M=20480 input.bf
 $ bf-jit --jmp-bnd input.bf
 ```
 
-> You can find sample brainfuck programs in the example directory [here](https://en.wikipedia.org/wiki/Brainfuck) and i have also included some sample programs that you can use for testing.
+> You can find sample brainfuck programs [here](https://en.wikipedia.org/wiki/Brainfuck) and in the example directory that you can use for testing.
 
 ## References
 
