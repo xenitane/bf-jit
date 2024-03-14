@@ -265,6 +265,7 @@ bool compile_to_machine_code(Program program, size_t memory_size, bool jump_on_b
 		nob_return_defer(false);
 	}
 	memcpy(code->exec, program_as_machine_code.items, program_as_machine_code.count);
+	mprotect(code->exec, program_as_machine_code.count, PROT_EXEC);
 
 defer:
 	if (!result) {
