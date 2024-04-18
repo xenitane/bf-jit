@@ -11,8 +11,8 @@ Who doesn't want to go ahead and make a programming language and that comes with
 ## Quick Start
 
 ```console
-cc -o nob nob.c
-nob ./examples/hello.bf
+$ cc -o nob nob.c
+$ nob ./examples/hello.bf
 ```
 
 ## Examples
